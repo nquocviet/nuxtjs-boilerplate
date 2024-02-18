@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "local": "cross-env NUXT_HOST=0.0.0.0 NUXT_PORT=3000 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nuxt": "^3.9.0",
+    "nuxt-icon": "^0.6.8",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.1.0"
+  }
+}

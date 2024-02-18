@@ -1,0 +1,11 @@
+.mt-auto {
+  margin-top: auto;
+}
+
+.line-clamp {
+  --line: 3;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

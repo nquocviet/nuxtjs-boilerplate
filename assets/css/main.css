@@ -1,0 +1,226 @@
+:root {
+  --white: #ffffff;
+  --black: #1d2939;
+
+  --primary-50: #eff4ff;
+  --primary-100: #d1e0ff;
+  --primary-200: #b2ccff;
+  --primary-300: #84adff;
+  --primary-400: #528bff;
+  --primary-500: #2970ff;
+  --primary-600: #155eef;
+  --primary-700: #004eeb;
+  --primary-800: #0040c1;
+  --primary-900: #00359e;
+
+  --dark-50: #c1c2c5;
+  --dark-100: #a6a7ab;
+  --dark-200: #909296;
+  --dark-300: #5c5f66;
+  --dark-400: #373a40;
+  --dark-500: #2c2e33;
+  --dark-600: #25262b;
+  --dark-700: #1a1b1e;
+  --dark-800: #141517;
+  --dark-900: #101113;
+
+  --gray-50: #f9fafb;
+  --gray-100: #f2f4f7;
+  --gray-200: #eaecf0;
+  --gray-300: #d0d5dd;
+  --gray-400: #98a2b3;
+  --gray-500: #667085;
+  --gray-600: #475467;
+  --gray-700: #344054;
+  --gray-800: #1d2939;
+  --gray-900: #101828;
+
+  --blue-50: #eff8ff;
+  --blue-100: #d1e9ff;
+  --blue-200: #b2ddff;
+  --blue-300: #84caff;
+  --blue-400: #53b1fd;
+  --blue-500: #2e90fa;
+  --blue-600: #1570ef;
+  --blue-700: #175cd3;
+  --blue-800: #1849a9;
+  --blue-900: #194185;
+
+  --red-50: #fef3f2;
+  --red-100: #fee4e2;
+  --red-200: #fecdca;
+  --red-300: #fda29b;
+  --red-400: #f97066;
+  --red-500: #f04438;
+  --red-600: #d92d20;
+  --red-700: #b42318;
+  --red-800: #912018;
+  --red-900: #7a271a;
+
+  --yellow-50: #fffaeb;
+  --yellow-100: #fef0c7;
+  --yellow-200: #fedf89;
+  --yellow-300: #fec84b;
+  --yellow-400: #fdb022;
+  --yellow-500: #f79009;
+  --yellow-600: #dc6803;
+  --yellow-700: #b54708;
+  --yellow-800: #93370d;
+  --yellow-900: #7a2e0e;
+
+  --green-50: #ecfdf3;
+  --green-100: #d1fadf;
+  --green-200: #a6f4c5;
+  --green-300: #6ce9a6;
+  --green-400: #32d583;
+  --green-500: #12b76a;
+  --green-600: #039855;
+  --green-700: #027a48;
+  --green-800: #05603a;
+  --green-900: #054f31;
+
+  --fs-text-2xs: 0.625rem;
+  --fs-text-xs: 0.75rem;
+  --fs-text-sm: 0.875rem;
+  --fs-text-md: 1rem;
+  --fs-text-lg: 1.125rem;
+  --fs-text-xl: 1.25rem;
+  --fs-display-xs: 1.5rem;
+  --fs-display-sm: 1.875rem;
+  --fs-display-md: 2.25rem;
+  --fs-display-lg: 3rem;
+  --fs-display-xl: 3.75rem;
+  --fs-display-2xl: 4.5rem;
+
+  --lh-text-2xs: 0.875rem;
+  --lh-text-xs: 1.125rem;
+  --lh-text-sm: 1.25rem;
+  --lh-text-md: 1.5rem;
+  --lh-text-lg: 1.75rem;
+  --lh-text-xl: 1.875rem;
+  --lh-display-xs: 2rem;
+  --lh-display-sm: 2.375rem;
+  --lh-display-md: 2.75rem;
+  --lh-display-lg: 3.75rem;
+  --lh-display-xl: 4.625rem;
+  --lh-display-2xl: 5.625rem;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  --fw-black: 900;
+
+  --z-negative: -1;
+  --z-elevate: 1;
+  --z-dropdown: 300;
+  --z-sticky: 400;
+  --z-drawer: 400;
+  --z-modal: 500;
+  --z-popover: 500;
+  --z-maximum: 9999;
+
+  --shadow-xs: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-sm: 0px 1px 2px rgba(16, 24, 40, 0.06),
+    0px 1px 3px rgba(16, 24, 40, 0.1);
+  --shadow-md: 0px 2px 4px -2px rgba(16, 24, 40, 0.06),
+    0px 4px 8px -2px rgba(16, 24, 40, 0.1);
+  --shadow-lg: 0px 4px 6px -2px rgba(16, 24, 40, 0.03),
+    0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+  --shadow-xl: 0px 8px 8px -4px rgba(16, 24, 40, 0.03),
+    0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+  --shadow-2xl: 0px 24px 48px -12px rgba(16, 24, 40, 0.18);
+  --shadow-3xl: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: Poppins, sans-serif;
+  color: var(--black);
+  background-color: var(--gray-100);
+}
+
+#__nuxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.router-link-active[aria-label] {
+  color: var(--primary-600) !important;
+}

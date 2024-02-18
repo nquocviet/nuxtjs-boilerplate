@@ -1,0 +1,15 @@
+export const ROUTES = {
+  HOME: "/",
+  CALENDAR: "/calendar",
+  PROFILE: "/profile",
+  SPLASH: "/splash",
+  ONBOARDING: "/onboarding",
+  LOGIN: "/login",
+  REGISTER: "/register",
+  VERIFICATION_CODE: "/verification-code",
+  VERIFIED: "/verified",
+  NOTIFICATIONS: "/notifications",
+  NEW_TASK: "/tasks/new",
+  PRIORITY_TASK: "/tasks/priority",
+  DAILY_TASK: "/tasks/daily",
+} as const;
